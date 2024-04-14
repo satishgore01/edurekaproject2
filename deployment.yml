@@ -18,7 +18,7 @@ spec:
       - name: myapp
         image: satish8380/edureka-project2:latest
         ports:
-          - containerPort: 3000
+          - containerPort: 8080
 ---
 apiVersion: v1
 kind: Service
